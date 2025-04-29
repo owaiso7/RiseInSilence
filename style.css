@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #dbd1e5;
-    color: #000000;
+    background-color: #179eb0;
+    color: #fefefe;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -9,8 +9,8 @@ body {
 
 header {
     padding: 50px 20px;
-    background-color: #892de0;
-    color: #fffdfd;
+    background-color: #06758e;
+    color: #ffffff;
 }
 
 section {
@@ -29,7 +29,7 @@ li {
 footer {
     padding: 20px;
     font-size: 14px;
-    background-color: #822fd4;
+    background-color: #7dd9ec;
 }
 body {
     animation: fadeIn 2s ease-in;
@@ -40,7 +40,7 @@ body {
     100% { opacity: 1; }
   }
   li:hover {
-    color: #00eeff;
+    color: #0edea0;
     transform: scale(1.1);
     transition: 0.3s ease;
     cursor: pointer;
@@ -49,8 +49,8 @@ body {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #00ff99;
-    color: #c0b3b3;
+    background-color: #18ddf3;
+    color: #b1d7e7;
     text-decoration: none;
     font-weight: bold;
     border-radius: 8px;
@@ -58,7 +58,7 @@ body {
   }
   
   .btn:hover {
-    background-color: #67d8a9;
+    background-color: #7fdab4;
   }
   /* MOBILE RESPONSIVE SETTINGS */
 @media (max-width: 768px) {
@@ -87,4 +87,17 @@ body {
       font-size: 14px;
     }
   }
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    /* make sections stack vertically if needed */
+  }
+  
   

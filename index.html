@@ -5,20 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Owais | Web Developer</title>
   <link rel="stylesheet" href="style.css">
-</head>
+  <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="webdev.css">
+</head>
 <body>
   <header>
     <h1>Muhammad Owais</h1>
     <p>Web Developer | Future Hacker | Builder of Dreams</p>
   </header>
 
-  <section class="about">
+  <section class="about" data-aos="fade-up">
     <h2>About Me</h2>
-    <p>I’m passionate about building clean, fast websites and turning code into a force of impact.  
-    Currently working on Projects — rising through faith, grind, and purpose.</p>
+    <p>I’m passionate about building clean websites...</p>
   </section>
-
+  
   <section class="skills">
     <h2>Skills</h2>
     <ul>
@@ -29,19 +30,28 @@
     </ul>
   </section>
 
-  <section class="projects">
+  <section class="projects" data-aos="fade-up">
     <h2>Projects</h2>
-    <p>Coming soon — real projects loading...</p>
-  </section>
-
-  <section class="contact">
-    <h2>Contact Me</h2>
-    <a href="mailto:muhammadowais0095@yahoo.com" class="btn">Email Me</a>
+    <div class="project-card">
+      <h3>Coming Soon: Project UI Clone</h3>
+      <p>Built with HTML, CSS, JS</p>
+    </div>
   </section>
   
 
+  <section class="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <button><p>Email: <a href="mailto:muhammadowais0095@yahoo.com">muhammadowais0095@yahoo.com</a></p></button>
+    <button><p>GitHub: <a href="https://github.com/owaiso7" target="_blank">owaiso7</a></p></button>
+  </section>
+  
   <footer>
     <p>Made with ❤️ by Muhammad Owais</p>
   </footer>
+  <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+  </script>
 </body>
 </html>
